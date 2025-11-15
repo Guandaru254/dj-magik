@@ -8,8 +8,7 @@ const DJMagik254 = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [scrollY, setScrollY] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
-  const canvasRef = useRef(null);
-
+  const canvasRef = useRef<HTMLCanvasElement>(null);
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
