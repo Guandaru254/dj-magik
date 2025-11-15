@@ -3,6 +3,16 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Music, Radio, Calendar, Zap, Instagram, Youtube, Globe, ChevronDown, Play, Pause, Volume2, Menu, X, ArrowRight, Sparkles, TrendingUp, Users, Mail, MapPin, Send, Download, Star, Award, Headphones, Mic2 } from 'lucide-react';
 
+interface Particle {
+  x: number;
+  y: number;
+  radius: number;
+  vx: number;
+  vy: number;
+  opacity: number;
+  isRed: boolean;
+}
+
 const DJMagik254 = () => {
   const [currentPage, setCurrentPage] = useState('home');
   const [isPlaying, setIsPlaying] = useState(false);
@@ -15,56 +25,79 @@ const DJMagik254 = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    
-    const ctx = canvas.getContext('2d');
-    const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
-    resizeCanvas();
-    window.addEventListener('resize', resizeCanvas);
+// Canvas background animation (FIXED)
+useEffect(() => {
+  const canvas = canvasRef.current;
+  if (!canvas) return;
 
-    const particles = [];
-    const particleCount = 80;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
 
-    for (let i = 0; i < particleCount; i++) {
-      particles.push({
-        x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height,
-        radius: Math.random() * 2 + 0.5,
-        vx: (Math.random() - 0.5) * 1.5,
-        vy: (Math.random() - 0.5) * 1.5,
-        opacity: Math.random() * 0.4 + 0.2,
-        isRed: Math.random() > 0.7
-      });
-    }
+  // Set canvas size properly
+  const resizeCanvas = () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  };
 
-    const animate = () => {
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.08)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
 
-      particles.forEach(p => {
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
-        ctx.fillStyle = p.isRed ? `rgba(220, 38, 38, ${p.opacity})` : `rgba(255, 255, 255, ${p.opacity * 0.3})`;
-        ctx.fill();
+  // Create particles
+  const particles: Particle[] = [];
+  const particleCount = 100;
 
-        p.x += p.vx;
-        p.y += p.vy;
+  for (let i = 0; i < particleCount; i++) {
+    particles.push({
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+      radius: Math.random() * 2 + 0.5,
+      vx: (Math.random() - 0.5) * 0.7,
+      vy: (Math.random() - 0.5) * 0.7,
+      opacity: Math.random() * 0.5 + 0.2,
+      isRed: Math.random() > 0.65,
+    });
+  }
 
-        if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
-        if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
-      });
+  let running = true;
 
-      requestAnimationFrame(animate);
-    };
+  const animate = () => {
+    if (!running) return;
 
-    animate();
-    return () => window.removeEventListener('resize', resizeCanvas);
-  }, []);
+    // Fade background for smooth trails
+    ctx.fillStyle = "rgba(0, 0, 0, 0.15)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    particles.forEach((p) => {
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+
+      ctx.fillStyle = p.isRed
+        ? `rgba(220, 38, 38, ${p.opacity})` // red particles
+        : `rgba(255, 255, 255, ${p.opacity * 0.5})`; // white glow particles
+
+      ctx.fill();
+
+      // Move particle
+      p.x += p.vx;
+      p.y += p.vy;
+
+      // Wrap-around screen edges
+      if (p.x < -20) p.x = canvas.width + 20;
+      if (p.x > canvas.width + 20) p.x = -20;
+      if (p.y < -20) p.y = canvas.height + 20;
+      if (p.y > canvas.height + 20) p.y = -20;
+    });
+
+    requestAnimationFrame(animate);
+  };
+
+  animate();
+
+  return () => {
+    running = false;
+    window.removeEventListener("resize", resizeCanvas);
+  };
+}, []);
 
   const services = [
     { icon: Music, title: "DJ Performances", desc: "High-energy sets across all genres" },
