@@ -1,0 +1,87 @@
+{
+  "categories": ["All", "Mixtapes", "Full Albums", "Artist Series", "Special Editions"],
+  "platforms": ["All", "YouTube", "Instagram"],
+  "items": [
+    {
+      "id": "magik-tapes-vol1",
+      "title": "THE MAGIK TAPES VOL 1",
+      "thumbnail": "/content/magiktapes1.jpg",
+      "duration": "30:58",
+      "platform": "YouTube",
+      "category": "Mixtapes",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "lowki-album",
+      "title": "LOWKI THE GREAT — FULL ALBUM COMPILATION",
+      "thumbnail": "/content/lowki.jpg",
+      "duration": "38:50",
+      "platform": "YouTube",
+      "category": "Full Albums",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "khaligraph-best",
+      "title": "THE BEST OF KHALIGRAPH JONES",
+      "thumbnail": "/content/khaligraph.jpg",
+      "duration": "34:17",
+      "platform": "YouTube",
+      "category": "Artist Series",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "lil-maina",
+      "title": "BEST OF LIL MAINA",
+      "thumbnail": "/content/maina.jpg",
+      "duration": "23:39",
+      "platform": "YouTube",
+      "category": "Artist Series",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "wakadinali-pt2",
+      "title": "WAKADINALI — VICTIMS OF MADNESS 2",
+      "thumbnail": "/content/wakadinali2.jpg",
+      "duration": "1:17:09",
+      "platform": "YouTube",
+      "category": "Full Albums",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "bien-tape",
+      "title": "THE BALD KING MIXTAPE (BIEN)",
+      "thumbnail": "/content/bien.jpg",
+      "duration": "25:01",
+      "platform": "YouTube",
+      "category": "Mixtapes",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "scar-kovu",
+      "title": "SCAR MKADINALI — KOVU MIXTAPE",
+      "thumbnail": "/content/scar.jpg",
+      "duration": "24:01",
+      "platform": "YouTube",
+      "category": "Artist Series",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "mauru-unit",
+      "title": "MAURU UNIT — FULL ALBUM",
+      "thumbnail": "/content/mauru.jpg",
+      "duration": "1:04:55",
+      "platform": "YouTube",
+      "category": "Full Albums",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    },
+    {
+      "id": "nas-best",
+      "title": "THE BEST OF NAS",
+      "thumbnail": "/content/nas.jpg",
+      "duration": "1:13:46",
+      "platform": "YouTube",
+      "category": "Artist Series",
+      "url": "https://youtube.com/watch?v=xxxxx"
+    }
+  ]
+}
