@@ -26,12 +26,12 @@ export default function Navbar() {
           href="/"
           className="flex items-center space-x-3 group cursor-pointer"
         >
-          <div className="w-12 h-12 bg-gradient-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center font-black text-lg group-hover:scale-110 transition-transform shadow-lg shadow-red-600/40">
-            MAG
+          <div className="w-12 h-12 bg-linear-to-br from-red-600 to-red-800 rounded-full flex items-center justify-center font-black text-lg group-hover:scale-110 transition-transform shadow-lg shadow-red-600/40">
+            M
           </div>
           <div>
             <h1 className="text-xl font-black text-white group-hover:text-red-500 transition-colors">
-              THE MAGIK PRINCE
+              MAGIK 
             </h1>
             <p className="text-xs text-gray-400">Mr Professional</p>
           </div>

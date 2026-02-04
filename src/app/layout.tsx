@@ -5,9 +5,9 @@ import Navbar from "@/components/nav/Navbar";
 import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
-  title: "THE MAGIK PRINCE — Official Website",
+  title: "THE MAGIK BRAND — Official Website",
   description:
-    "THE MAGIK PRINCE — Multidimensional creative, DJ, technologist, and culture architect. Music, AI, events, and African innovation.",
+    "DJ MAGIK  — Multidimensional creative, DJ, technologist, and culture architect. Music, AI, events, and African innovation.",
   keywords: [
     "The Magik Prince",
     "DJ Magik",
@@ -46,7 +46,7 @@ export default function RootLayout({
         <Navbar />
 
         {/* MAIN CONTENT */}
-        <main className="flex-grow pt-20">{children}</main>
+        <main className="grow pt-20">{children}</main>
 
         {/* GLOBAL FOOTER */}
         <Footer />

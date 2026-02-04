@@ -132,27 +132,27 @@ export default function HomePage() {
       ======================================================= */}
       <section className="relative min-h-screen flex items-center justify-center px-6 pt-28 pb-20">
         {/* Background Layer */}
-        <div className="absolute inset-0 bg-gradient-to-b from-red-950/40 via-black to-black opacity-95" />
+        <div className="absolute inset-0 bg-linear-to-b from-red-950/40 via-black to-black opacity-95" />
 
         <div className="relative z-20 max-w-6xl mx-auto text-center">
           {/* Micro-tagline */}
           <div className="inline-flex items-center mb-6 px-6 py-2 bg-red-600/10 border border-red-600/30 rounded-full text-sm backdrop-blur-md tracking-wide">
             <Sparkles className="w-4 h-4 mr-2 text-red-500" />
             <span>
-              DJ • A&amp;R • AI Architect • Cultural Engineer • Founder
+              DJ • Cultural Curator • Techpreneur
             </span>
           </div>
 
           {/* Main Title */}
           <h1 className="text-7xl md:text-[8.5rem] font-black leading-[0.85] mb-10 drop-shadow-[0_0_40px_rgba(255,0,0,0.45)]">
-            <span className="block text-white">THE MAGIK</span>
+            <span className="block text-white">IT'S</span>
             <span className="block bg-linear-to-r from-red-500 via-red-600 to-red-500 bg-clip-text text-transparent">
-              PRINCE
+              MAGIK
             </span>
           </h1>
 
           <p className="text-xl md:text-3xl text-gray-300 mb-4 tracking-wide">
-            MR PROFESSIONAL · NAIROBI · AFRICAN FUTURE
+            MR PROFESSIONAL · GEN Z · AFRICAN INNOVATOR
           </p>
 
           <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
@@ -191,7 +191,7 @@ export default function HomePage() {
               return (
                 <div
                   key={i}
-                  className="p-6 rounded-2xl bg-gradient-to-b from-white/10 to-white/5 border border-red-600/30 hover:border-red-600 hover:bg-red-600/10 backdrop-blur-xl transition-all"
+                  className="p-6 rounded-2xl bg-linear-to-b from-white/10 to-white/5 border border-red-600/30 hover:border-red-600 hover:bg-red-600/10 backdrop-blur-xl transition-all"
                 >
                   <Icon className="w-7 h-7 text-red-500 mx-auto mb-4" />
                   <div className="text-4xl font-extrabold text-center">
@@ -221,11 +221,11 @@ export default function HomePage() {
                 More than a DJ.
               </h2>
               <p className="text-gray-400 text-sm md:text-base max-w-xl">
-                THE MAGIK PRINCE is a full-stack creative: a{" "}
+                MAGIK is a full-stack creative: a{" "}
                 <span className="text-red-400 font-semibold">music mind</span>, a{" "}
                 <span className="text-red-400 font-semibold">tech brain</span>, and an{" "}
                 <span className="text-red-400 font-semibold">
-                  entrepreneurial engine
+                  entrepreneur.
                 </span>{" "}
                 building long-term value in African entertainment.
               </p>

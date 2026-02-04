@@ -84,9 +84,9 @@ export default function AboutPage() {
       meta: "Infrastructure for the future of African creativity.",
     },
     {
-      title: "The Magik Prince",
-      tag: "Artist & Creative Engine",
-      body: "The personal brand that connects it all—DJ, A&R, strategist, and curator operating as one multi-dimensional identity.",
+      title: "The Magik Brand",
+      tag: "Artist & Creative ",
+      body: "The personal brand that connects it all—DJ, strategist, and curator operating as one multi-dimensional identity.",
       meta: "The human interface to all the work.",
     },
   ];
@@ -154,7 +154,7 @@ export default function AboutPage() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 border border-red-600/30 mb-6">
             <Sparkles className="w-4 h-4 text-red-500" />
             <span className="text-xs md:text-sm text-gray-200">
-              THE MAGIK PRINCE · DJ · Technologist · Entrepreneur
+              MAGIK  · DJ · Culture Curator · Techpreneur
             </span>
           </div>
 
@@ -162,11 +162,11 @@ export default function AboutPage() {
             <span className="block text-gray-300 text-lg md:text-xl mb-2">
               ABOUT
             </span>
-            <span className="block">THE MAGIK PRINCE</span>
+            <span className="block">MAGIK </span>
           </h1>
 
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mb-4">
-            I am <span className="text-red-500 font-semibold">THE MAGIK PRINCE</span>, a
+            I am <span className="text-red-500 font-semibold">MAGIK </span>, a
             multidimensional creative and entrepreneur operating at the intersection of{" "}
             <span className="font-semibold text-red-400">music</span>,{" "}
             <span className="font-semibold text-red-400">technology</span>, and{" "}
@@ -174,7 +174,7 @@ export default function AboutPage() {
           </p>
 
           <p className="text-sm md:text-base text-gray-400 max-w-3xl mb-6">
-            Professionally, I&apos;m a software engineer leaning into data and AI-driven
+            Professionally, I&apos;m a software engineer leaning into data-driven 
             trends in African ecosystems. Creatively, I&apos;m a DJ, curator, and future
             music entrepreneur. My goal is simple:{" "}
             <span className="text-gray-200 font-semibold">
@@ -189,7 +189,7 @@ export default function AboutPage() {
             </div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-300">
               <Cpu className="w-3 h-3 text-red-500" />
-              <span>AI native &amp; data aware</span>
+              <span>Data aware</span>
             </div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-300">
               <Headphones className="w-3 h-3 text-red-500" />
@@ -224,10 +224,6 @@ export default function AboutPage() {
               <h2 className="text-2xl md:text-3xl font-black mb-2">
                 Identity in Three Dimensions
               </h2>
-              <p className="text-sm md:text-base text-gray-400 max-w-xl">
-                I don&apos;t fit in a single lane. Everything I do sits at the intersection
-                of culture, technology, and long-term vision.
-              </p>
             </div>
             <p className="text-xs md:text-sm text-gray-500 max-w-sm">
               My north star:{" "}
@@ -296,7 +292,7 @@ export default function AboutPage() {
                 <li className="flex items-start gap-2">
                   <ArrowRight className="w-4 h-4 mt-0.5 text-red-500" />
                   <span>
-                    Getting into data &amp; AI as an engineer showed me how much
+                    Getting into tech showed me how much
                     potential there is to build better systems for creatives in Africa.
                   </span>
                 </li>

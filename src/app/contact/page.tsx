@@ -138,12 +138,12 @@ export default function ContactPage() {
 
           {/* Email */}
           <a
-            href="mailto:djmagik254@gmail.com"
+            href="mailto:info@magik.co.ke"
             className="block bg-white/5 border border-white/10 hover:border-red-600 rounded-2xl p-8 transition-all"
           >
             <Mail className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-black mb-1">Email</h3>
-            <p className="text-gray-400">djmagik254@gmail.com</p>
+            <p className="text-gray-400">info@magik.co.ke</p>
           </a>
 
           {/* Phone / WhatsApp */}
@@ -154,18 +154,18 @@ export default function ContactPage() {
           >
             <Phone className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-black mb-1">Phone / WhatsApp</h3>
-            <p className="text-gray-400">+254 700 000000</p>
+            <p className="text-gray-400">+254 793 595290</p>
           </a>
 
           {/* Instagram */}
           <a
-            href="https://instagram.com/gk.magik_"
+            href="https://www.instagram.com/its.magik__/"
             target="_blank"
             className="block bg-white/5 border border-white/10 hover:border-red-600 rounded-2xl p-8 transition-all"
           >
             <Instagram className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-black mb-1">Instagram</h3>
-            <p className="text-gray-400">@gk.magik_</p>
+            <p className="text-gray-400">its.magik__</p>
           </a>
 
           {/* YouTube */}
@@ -176,18 +176,18 @@ export default function ContactPage() {
           >
             <Youtube className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-black mb-1">YouTube</h3>
-            <p className="text-gray-400">THE MAGIK PRINCE</p>
+            <p className="text-gray-400">DJ MAGIK TV </p>
           </a>
 
           {/* Website */}
           <a
-            href="https://gkmagik.com"
+            href="https://www.magik.co.ke/"
             target="_blank"
             className="block bg-white/5 border border-white/10 hover:border-red-600 rounded-2xl p-8 transition-all"
           >
             <Globe className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-black mb-1">Website</h3>
-            <p className="text-gray-400">gkmagik.com</p>
+            <p className="text-gray-400">www.magik.co.ke</p>
           </a>
 
         </div>

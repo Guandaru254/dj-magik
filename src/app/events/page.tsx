@@ -19,34 +19,10 @@ const eventCategories = ["All", "Festival", "Club", "Corporate", "Special"];
 
 const upcomingEvents = [
   {
-    title: "VibeNation Festival: Nairobi Takeover",
-    date: "2024-12-15",
-    location: "Uhuru Gardens, Nairobi",
-    category: "Festival",
-    description:
-      "A full-scale culture and music experience curated by THE MAGIK PRINCE.",
-  },
-  {
-    title: "Corporate Tech Summit Afterparty",
-    date: "2024-12-04",
-    location: "Westlands, Nairobi",
-    category: "Corporate",
-    description:
-      "A premium sonic experience designed for innovators & founders.",
-  },
-  {
-    title: "Magik Prince Residency Night",
-    date: "2024-12-20",
-    location: "Kilimani, Nairobi",
-    category: "Club",
-    description:
-      "High-energy multi-genre set. Afro • Amapiano • EDM • Hip Hop.",
-  },
-  {
-    title: "Christmas Rave Experience",
-    date: "2024-12-24",
-    location: "Karen, Nairobi",
-    category: "Special",
+    title: "Twisted Vibes 3.0",
+    date: "2026-02-14",
+    location: "Kimbo, Nairobi",
+    category: "Event",
     description:
       "A December celebration of sound, culture, and festive energy.",
   },
@@ -54,22 +30,28 @@ const upcomingEvents = [
 
 const pastEvents = [
   {
-    title: "Amapiano Block Party",
-    date: "2024-10-10",
-    location: "The Alchemist, Nairobi",
-    category: "Festival",
+    title: "Freshers Party",
+    date: "2026-02-30",
+    location: "KCA University, Nairobi",
+    category: "Students Party",
   },
   {
-    title: "StartUp Grind Afterparty",
-    date: "2024-09-01",
-    location: "Nairobi CBD",
-    category: "Corporate",
+    title: "Twisted Vibes 2.0",
+    date: "2025-11-29",
+    location: "Kastemil Gardens, Nairobi",
+    category: "Event",
   },
   {
-    title: "Rooftop Sunset Sessions",
-    date: "2024-08-14",
-    location: "Lavington, Nairobi",
-    category: "Club",
+    title: "Nairobi Showcase Day 1",
+    date: "2025-03-27",
+    location: "KODA , Westlands, Nairobi",
+    category: "Showcase",
+  },
+  {
+    title: "Nairobi Showcase Day 2",
+    date: "2025-03-27",
+    location: "KODA , Westlands, Nairobi",
+    category: "Showcase",
   },
 ];
 

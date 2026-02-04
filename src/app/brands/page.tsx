@@ -15,7 +15,7 @@ export default function BrandsPage() {
 
         <p className="text-gray-400 text-lg">
           A unified network of brands working together to shape Africa’s
-          entertainment future — through music, technology & culture.
+          entertainment future — through music, technology & enterprise.
         </p>
       </div>
 
