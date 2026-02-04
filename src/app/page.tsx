@@ -30,13 +30,13 @@ export default function HomePage() {
   const identityPillars = [
     {
       label: "The Artist",
-      title: "DJ • Performer • Sonic Storyteller",
-      body: "From Amapiano and Afrobeats to Hip-Hop and EDM, every set is designed as an emotional arc, not just a playlist.",
+      title: "DJ • Performer ",
+      body: "Every set is designed as an emotional arc, not just a playlist.",
     },
     {
       label: "The Architect",
-      title: "AI & Data-Driven Creative",
-      body: "Blending software engineering, AI and data with culture to build the next wave of African entertainment products.",
+      title: "Tech & Data-Driven Creative",
+      body: "I Blend software engineering and data awareness with culture to build the next wave of African entertainment products.",
     },
     {
       label: "The Curator",
@@ -45,8 +45,8 @@ export default function HomePage() {
     },
     {
       label: "The Founder",
-      title: "VibeNation HQ & BraveTechnologies",
-      body: "Building long-term platforms, not just moments — from live entertainment to tech ecosystems.",
+      title: "VibeNinjas HQ & BraveTechnologies",
+      body: "Building long-term platforms in live entertainment and creative growth driven by tech.",
     },
   ];
 
@@ -65,7 +65,7 @@ export default function HomePage() {
     },
     {
       icon: Zap,
-      title: "AI-Driven Creative Strategy",
+      title: "Tech Creative Strategy",
       desc: "Using AI and data to supercharge content, distribution, and decisions for artists, brands and events.",
       highlight: "Where tech meets intuition and culture.",
     },
@@ -151,16 +151,14 @@ export default function HomePage() {
             </span>
           </h1>
 
-          <p className="text-xl md:text-3xl text-gray-300 mb-4 tracking-wide">
-            MR PROFESSIONAL · GEN Z · AFRICAN INNOVATOR
-          </p>
+       
 
           <p className="text-lg md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
             A multi-dimensional creator blending
-            <span className="text-red-500 font-bold"> sound</span>,
-            <span className="text-red-500 font-bold"> technology</span>, and
+            <span className="text-red-500 font-bold"> experiences</span>,
+            <span className="text-red-500 font-bold"> technology</span> and
             <span className="text-red-500 font-bold"> enterprise</span> to shape
-            Africa&apos;s next wave of entertainment, culture, and business.
+            Africa&apos;s next wave of entertainment and culture
           </p>
 
           {/* CTAs */}
@@ -408,7 +406,7 @@ export default function HomePage() {
             className="px-10 py-4 bg-black rounded-full font-bold text-sm md:text-base hover:bg-gray-900 transition-all inline-flex items-center gap-2"
           >
             <Calendar className="w-5 h-5" />
-            Book THE MAGIK PRINCE
+            Book THE MAGIK BRAND
           </a>
         </div>
       </section>

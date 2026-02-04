@@ -21,7 +21,7 @@ export default function ContactPage() {
     // FUTURE: connect /api/contact route
     console.log("Submitted:", form);
 
-    alert("Your message has been received. The Magik Prince will get back to you shortly.");
+    alert("Your message has been received. The Magik Brand will get back to you shortly.");
 
     setForm({ name: "", email: "", phone: "", message: "" });
   };

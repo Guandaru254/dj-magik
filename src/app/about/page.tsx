@@ -328,12 +328,10 @@ export default function AboutPage() {
           {/* Quote strip */}
           <div className="mt-6 rounded-2xl border border-red-600/40 bg-red-950/30 px-5 py-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
             <p className="text-sm md:text-base text-gray-100">
-              “I don&apos;t chase moments. I create them. The real work is building
-              systems that let other creatives do the same.”
             </p>
             <div className="flex items-center gap-2 text-xs text-red-300">
               <Star className="w-4 h-4 fill-red-400 text-red-400" />
-              <span>THE MAGIK PRINCE</span>
+              <span>THE MAGIK BRAND</span>
             </div>
           </div>
         </div>
@@ -385,7 +383,7 @@ export default function AboutPage() {
                 The Ecosystem I&apos;m Building
               </h2>
               <p className="text-sm md:text-base text-gray-400 max-w-xl">
-                The Magik Prince isn&apos;t just a DJ brand. It&apos;s one node in a
+                Magik isn&apos;t just a DJ brand. It&apos;s one node in a
                 growing ecosystem of projects designed to serve African creatives and
                 audiences.
               </p>
@@ -393,7 +391,7 @@ export default function AboutPage() {
             <p className="text-xs md:text-sm text-gray-500 max-w-sm">
               By 2030, the goal is clear:{" "}
               <span className="text-gray-200 font-semibold">
-                VibeNation HQ as a true HQ for African entertainment.
+                VibeNinjas HQ as a true HQ for African entertainment.
               </span>
             </p>
           </div>

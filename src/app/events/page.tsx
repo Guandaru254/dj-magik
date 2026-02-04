@@ -189,11 +189,11 @@ export default function EventsPage() {
           <Sparkles className="w-16 h-16 text-white mx-auto mb-6" />
 
           <h2 className="text-4xl font-black text-white mb-4">
-            BOOK THE MAGIK PRINCE
+            BOOK THE MAGIK BRAND FOR YOUR NEXT EVENT
           </h2>
 
           <p className="text-white/80 mb-8 text-lg">
-            Elevate your event with a multi-genre, high-energy sonic architect.
+            Elevate your event with a multi-genre, high-energy architect.
           </p>
 
           <a

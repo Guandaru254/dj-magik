@@ -37,13 +37,13 @@ interface ShopItem {
 const PRODUCTS: ShopItem[] = [
   {
     id: "magik-tee-blackout",
-    title: "MAGIK PRINCE Tee — Blackout Edition",
+    title: "MAGIK Tee — Blackout Edition",
     price: "KES 2,500",
     priceTier: "standard",
     category: "merch",
     tag: "Streetwear",
     description:
-      "Premium heavyweight black tee with subtle THE MAGIK PRINCE chest print. Designed for Nairobi nights, studio days, and festival runs.",
+      "Premium heavyweight black tee with subtle MAGIK chest print. Designed for Nairobi Magikal Nights",
     highlight: "Designed for Kenyan nightlife.",
     status: "preorder",
     icon: Shirt,
@@ -51,11 +51,11 @@ const PRODUCTS: ShopItem[] = [
   },
   {
     id: "vibenation-hoodie",
-    title: "VibeNation HQ Hoodie — Night Shift",
+    title: "VibeNinja Hoodie — FOR THE VIBE NINJAS",
     price: "KES 4,500",
     priceTier: "premium",
     category: "merch",
-    tag: "VibeNation",
+    tag: "VibeNainjas",
     description:
       "Ultra-soft fleece hoodie built for late-night sessions, rooftop events, and cold Limuru mornings after the show.",
     highlight: "Limited drop for core supporters.",
@@ -78,7 +78,7 @@ const PRODUCTS: ShopItem[] = [
   },
   {
     id: "exclusive-usb",
-    title: "Exclusive Mix USB — Nairobi Sessions",
+    title: "Exclusive Mix USB — Completely Exclusive",
     price: "KES 3,000",
     priceTier: "standard",
     category: "digital",
@@ -98,7 +98,7 @@ const PRODUCTS: ShopItem[] = [
     category: "access",
     tag: "Access",
     description:
-      "Priority entry, faster queues, and curated experiences at selected events where THE MAGIK PRINCE is performing or curating.",
+      "Priority entry, faster queues, and curated experiences at selected events where MAGIK is performing or curating.",
     highlight: "Built for heavy supporters & industry heads.",
     status: "coming-soon",
     icon: Ticket,
@@ -224,16 +224,16 @@ export default function ShopPage() {
     <div className="w-full min-h-screen bg-black text-white px-6 pb-24 pt-28">
       {/* Invisible-ish SEO helper for screen readers & crawlers */}
       <p className="sr-only">
-        Official shop for THE MAGIK PRINCE in Nairobi, Kenya. Buy merch,
+        Official shop for THE MAGIK BRAND in Nairobi, Kenya. Buy merch,
         experiences, and access passes connected to African nightlife, DJ
-        culture, and VibeNation HQ.
+        culture, and VibeNinjas HQ.
       </p>
 
       {/* HEADER */}
       <section className="max-w-6xl mx-auto mb-10">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-600/10 border border-red-600/30 text-xs mb-4">
           <ShoppingBag className="w-4 h-4 text-red-500" />
-          <span>Official Store · Nairobi · Kenya · Africa</span>
+          <span>Official Store · Nairobi · Kenya · Africa - Worldwide</span>
         </div>
 
         <h1 className="text-4xl md:text-5xl font-black mb-3">
@@ -372,7 +372,7 @@ export default function ShopPage() {
               </button>
               <p className="text-[11px] md:text-xs text-red-100/85">
                 For now, DM{" "}
-                <span className="font-semibold">@gk.magik_</span> on Instagram
+                <span className="font-semibold">@its.magik__</span> on Instagram
                 to secure your slot.
               </p>
             </div>
@@ -464,7 +464,7 @@ export default function ShopPage() {
                     <p className="text-[11px] text-gray-500">
                       DM{" "}
                       <span className="text-red-400 font-semibold">
-                        @gk.magik_
+                        @its.magik__
                       </span>{" "}
                       to order or book.
                     </p>
@@ -478,7 +478,7 @@ export default function ShopPage() {
         {/* Extra SEO Copy — still natural & useful */}
         <div className="mt-10 text-[11px] text-gray-500 max-w-4xl">
           <p className="mb-2">
-            THE MAGIK PRINCE shop is intentionally built around{" "}
+            THE MAGIK  shop is intentionally built around{" "}
             <span className="text-gray-300">
               Nairobi nightlife, Kenyan creatives, and the wider African
               entertainment ecosystem

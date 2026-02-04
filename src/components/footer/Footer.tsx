@@ -13,11 +13,11 @@ export default function Footer() {
           {/* LEFT SIDE */}
           <div className="text-center md:text-left">
             <p className="text-gray-400 hover:text-white transition-colors">
-              © {new Date().getFullYear()} THE MAGIK PRINCE. All rights reserved.
+              © {new Date().getFullYear()} THE MAGIK BRAND . All rights reserved.
             </p>
 
             <p className="text-xs text-gray-500 mt-2">
-              VibeNation HQ · BraveTechnologies · Culture &amp; Code
+              VibeNinjas HQ · BraveTechnologies · The Magik Brand
             </p>
 
             <p className="text-xs text-gray-500 mt-2">
@@ -35,7 +35,7 @@ export default function Footer() {
           {/* RIGHT SIDE ICONS */}
           <div className="flex items-center space-x-6">
             <Link
-              href="https://instagram.com/gk.magik_"
+              href="https://instagram.com/its.magik___"
               target="_blank"
               className="text-gray-400 hover:text-red-500 transition-colors"
             >

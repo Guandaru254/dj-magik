@@ -25,7 +25,7 @@ export default function ContentPage() {
         </h1>
         <p className="text-gray-400 text-xl mt-4 max-w-2xl mx-auto">
           Explore mixes, albums, artist tapes and creative work by 
-          <span className="text-red-500 font-bold"> THE MAGIK PRINCE.</span>
+          <span className="text-red-500 font-bold"> MAGIK.</span>
         </p>
       </div>
 

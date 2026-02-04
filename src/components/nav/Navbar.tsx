@@ -53,7 +53,7 @@ export default function Navbar() {
         {/* --- SOCIAL ICONS (Desktop) --- */}
         <div className="hidden md:flex lg:flex items-center space-x-4">
           <Link
-            href="https://instagram.com/gk.magik_"
+            href="https://www.instagram.com/its.magik__/"
             target="_blank"
             className="hover:text-red-500 transition-colors"
           >
@@ -67,7 +67,7 @@ export default function Navbar() {
             <Youtube className="w-5 h-5" />
           </Link>
           <Link
-            href="https://gkmagik.com"
+            href="https://www.magik.co.ke/"
             target="_blank"
             className="hover:text-red-500 transition-colors"
           >

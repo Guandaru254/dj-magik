@@ -9,25 +9,25 @@ export const metadata: Metadata = {
   description:
     "DJ MAGIK  — Multidimensional creative, DJ, technologist, and culture architect. Music, AI, events, and African innovation.",
   keywords: [
-    "The Magik Prince",
+    "Magik ",
     "DJ Magik",
-    "VibeNationHQ",
+    "VibeNinjaHQ",
     "African DJs",
     "Kenyan Music",
     "AI Creatives",
     "BraveTechnologies",
   ],
   openGraph: {
-    title: "THE MAGIK PRINCE",
+    title: "THE MAGIK BRAND",
     description:
       "Multidimensional artist building Africa's next entertainment frontier.",
-    url: "https://gkmagik.com",
-    siteName: "THE MAGIK PRINCE",
+    url: "https://its.magik__",
+    siteName: "THE MAGIK BRAND",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "THE MAGIK PRINCE",
+    title: "THE MAGIK BRAND",
     description:
       "Creative, DJ, technologist & founder — building Africa’s next culture platforms.",
   },
