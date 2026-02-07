@@ -31,17 +31,17 @@ export default function HomePage() {
     {
       label: "The Artist",
       title: "DJ • Performer ",
-      body: "Every set is designed as an emotional arc, not just a playlist.",
+      body: "I bring that magik energy in my sets and any musical room.",
     },
     {
       label: "The Architect",
       title: "Tech & Data-Driven Creative",
-      body: "I Blend software engineering and data awareness with culture to build the next wave of African entertainment products.",
+      body: "I blend tech and data awareness with culture to build the next wave of African entertainment systems.",
     },
     {
       label: "The Curator",
       title: "Events & Culture Builder",
-      body: "Designing nights, festivals and experiences that become core memories for the people who attend.",
+      body: "I design and curate magikal experiences that bring people together in meaningful ways.",
     },
     {
       label: "The Founder",
@@ -54,8 +54,8 @@ export default function HomePage() {
     {
       icon: Music,
       title: "Live DJ Performances",
-      desc: "Signature genre-fluid sets engineered to ignite any room — festivals, clubs, campuses, corporate, and private events.",
-      highlight: "Multi-genre, multi-era, energy-tuned for your crowd.",
+      desc: "I strive to give my best in every set and make every set better than the last.",
+      highlight: "Multi-genre, multi-era, magik-energy for your crowd.",
     },
     {
       icon: Radio,
@@ -66,8 +66,8 @@ export default function HomePage() {
     {
       icon: Zap,
       title: "Tech Creative Strategy",
-      desc: "Using AI and data to supercharge content, distribution, and decisions for artists, brands and events.",
-      highlight: "Where tech meets intuition and culture.",
+      desc: "Using tech and data to supercharge content, distribution, and decisions for artists, brands and events.",
+      highlight: "Tech meets culture with intention.",
     },
     {
       icon: Calendar,
@@ -80,10 +80,10 @@ export default function HomePage() {
   const contentHighlights = [
     {
       label: "Latest Drop",
-      title: "Amapiano Heat Set — Nairobi Night Edition",
-      desc: "A high-energy journey through Amapiano, Afro-house and club heaters crafted for late nights.",
+      title: "Magik Tapes VOL 2",
+      desc: "A short mid-energy journey through afrobeats and dancehall curated for a pre-game party before heading to a main party.",
       cta: "Watch on YouTube",
-      href: "https://youtube.com/@djmagik254",
+      href: "https://youtu.be/0h1e6GCAVYI?si=7rSvNuEmD3PrqO3Z",
       icon: Youtube,
     },
     {
@@ -113,7 +113,7 @@ export default function HomePage() {
     },
     {
       quote:
-        "Our best-performing resident DJ. Always evolving, always in tune with the crowd.",
+        "Always evolving, always in tune with the crowd.",
       name: "Mike T.",
       role: "Club Manager",
     },
