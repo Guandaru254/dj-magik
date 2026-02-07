@@ -19,12 +19,20 @@ const eventCategories = ["All", "Festival", "Club", "Corporate", "Special"];
 
 const upcomingEvents = [
   {
+    title: "Creatives Unwind 2.0",
+    date: "2026-02-28",
+    location: "John Michuki Memorial Park, Nairobi",
+    category: "Event",
+    description:
+      "A creative gathering in the heart of Nairobi.",
+  },
+  {
     title: "Twisted Vibes 3.0",
     date: "2026-02-14",
     location: "Kimbo, Nairobi",
     category: "Event",
     description:
-      "A December celebration of sound, culture, and festive energy.",
+      "A high energy Valentines night party.",
   },
 ];
 
@@ -42,6 +50,14 @@ const pastEvents = [
     category: "Event",
   },
   {
+    title: "Creatives Unwind 1.0",
+    date: "2026-10-10",
+    location: "Karura Forest, Nairobi",
+    category: "Event",
+    description:
+      "A hike and art adventure for creatives.",
+  },
+  {
     title: "Nairobi Showcase Day 1",
     date: "2025-03-27",
     location: "KODA , Westlands, Nairobi",
@@ -49,7 +65,7 @@ const pastEvents = [
   },
   {
     title: "Nairobi Showcase Day 2",
-    date: "2025-03-27",
+    date: "2025-03-26",
     location: "KODA , Westlands, Nairobi",
     category: "Showcase",
   },
